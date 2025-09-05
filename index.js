@@ -23,4 +23,8 @@ app.get('/favicon', (req, res) => {
   res.sendFile(__dirname + '/public/images/favicon.ico');
 });
 
+app.get('/Asterisk', (req, res) => {
+  res.sendFile(__dirname + '/public/programs/Asterisk.exe');
+});
+
 app.listen(port);
