@@ -1,5 +1,5 @@
 {
-  "name": "hoorm",
+  "name": "asterisk download page",
   "version": 2,
   "public": true,
   "builds": [{ "src": "index.js", "use": "@vercel/node" }],
