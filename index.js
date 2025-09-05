@@ -15,11 +15,11 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/pages/index.html');
 });
 
-app.get('/Asterisk_Logo.png', (req, res) => {
+app.get('/Asterisk_Logo', (req, res) => {
   res.sendFile(__dirname + '/public/images/Asterisk_Logo.png');
 });
 
-app.get('/favicon.ico', (req, res) => {
+app.get('/favicon', (req, res) => {
   res.sendFile(__dirname + '/public/images/favicon.ico');
 });
 
