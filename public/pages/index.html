@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon.ico" />
+    <style>
+      @font-face {
+        font-family: 'SokchoBadaDotum';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaDotum.woff2')
+          format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      #logobox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+      #logo {
+        width: 300px;
+      }
+      #subtitle {
+        font-family: 'SokchoBadaDotum';
+        font-size: 20px;
+      }
+      #copyright {
+        font-family: 'SokchoBadaDotum';
+        position: absolute;
+        bottom: 15px;
+        transform: translate(-50%, 0);
+        left: 50%;
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+        transition: opacity 0.5s;
+        width: 90dvw;
+      }
+
+      #downloadbutton {
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        background: linear-gradient(
+          to right,
+          rgb(156, 54, 99),
+          rgb(215, 78, 137)
+        );
+        font-family: 'SokchoBadaDotum';
+        text-align: center;
+        font-size: 30px;
+        transition: all 0.2s;
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+        color: #fff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 350px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      #downloadbutton:hover {
+        box-shadow: 0 12px 20px rgb(255, 74, 201);
+        transform: translate(-50%, -49%) scale(1.05);
+      }
+    </style>
+    <title>Asterisk* | Downloader</title>
+  </head>
+  <body>
+    <div id="logobox">
+      <img src="/images/Asterisk_Logo.png" alt="Asterisk* Logo" id="logo" />
+      <div id="subtitle">스마트폰을 이용한 프리젠터 겸 원격 입력 장치</div>
+    </div>
+    <a id="downloadbutton" href="/programs/Asterisk.exe" download
+      >Asterisk* 다운로드</a
+    >
+    <div id="copyright">Copyright 2025. DennisYun All rights reserved.</div>
+  </body>
+</html>
