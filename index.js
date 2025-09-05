@@ -24,7 +24,7 @@ app.get('/favicon', (req, res) => {
 });
 
 app.get('/Asterisk', (req, res) => {
-  res.sendFile(__dirname + '/public/programs/Asterisk.exe');
+  res.download(__dirname + '/public/programs/Asterisk.zip');
 });
 
 app.listen(port);
